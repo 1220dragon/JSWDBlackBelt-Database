@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fact Generator</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        
+        
+        <h1>Cool fact:</h1>
+        <button id="genButton" onclick="">Generate New</button>
+        <h2 id="quote"></h2>
+        <h2 ><a href="" id="source"></a></h2>
+        <h2><a href="" id="send">View metadata</a></h2>
+
+        <div data-logged-out>
+      <form data-login>
+        <h2>Log in</h2>
+        <input name="username" placeholder="Username" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button>Log in</button>
+        <p>No account? <a href="#" data-switch>Sign up</a></p>
+        <p>Example account, username: example, password: robot123</p>
+      </form>
+
+      <form data-signup hidden>
+        <h2>Sign up</h2>
+        <input name="username" placeholder="Username" required>
+        <input name="password" type="password" placeholder="Password" required>
+        <button>Sign up</button>
+        <p>Never use a password you use anywhere else.</p>
+        <p>Have an account? <a href="#" data-switch>Log in</a></p>
+      </form>
+    </div>
+
+    <div data-waiting>
+      <h2>Thanks for signing up, <span data-username></span>!</h2>
+      <p>The owner of this site needs to approve your account before you can use it.
+         This page will update by itself when they do.</p>
+      <button data-logout>Log out</button>
+    </div>
+
+    <div data-logged-in>
+ 
+
+      <form data-insert>
+        <button id="saveButton" onclick="save()">Save</button>
+      </form>
+
+
+      <p><b id="factThing" data-username></b>'s saved facts</p>
+
+      <ul data-list>
+        <li>
+          <span data-field="text"></span>
+          <button data-delete="text">Delete</button>
+        </li>
+        <li data-empty>Nothing saved yet.</li>
+      </ul>
+      <button id="logOut" data-logout>Log out</button>
+    </div>
+
+    
+
+    <p data-message></p>
+
+    
+
+
+        
+
+        <div class="facts"></div>
+        <script type="module" src="script.js"></script>
+        <script src="config.js"></script>
+        <script src="database.js"></script>
+
+        <footer>Use this to get infinite kid genius badges!</footer>
+    </body>
+</html>
+

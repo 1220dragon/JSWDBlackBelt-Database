@@ -1,0 +1,100 @@
+body *{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: rgb(89, 89, 89);
+}
+
+#quote{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(35, 35, 35);
+    transition: 2.5s all;
+    opacity: 0;
+    width: 100%
+}
+
+#quote:hover{
+    font-size: 32px;
+    width: 50%;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    background-color: black;
+    border: 2px solid grey;
+
+}
+
+#genButton{
+    font-size: 32px;
+    transition: 2s all;
+}
+
+#genButton:hover{
+    font-size: 48px;
+}
+
+footer{
+    height: 60px;
+    margin-top: 200px;
+    background-color: rgb(71, 71, 71);
+}
+
+input{
+    background-color: black
+}
+
+ul{
+  list-style-type: none; 
+  padding: 0;            
+  margin: 0;             
+}
+
+ul li button{
+    font-size: 16px;
+    transition: 1s all
+}
+
+ul li button:hover{
+    font-size: 24px;
+}
+
+#saveButton{
+    font-size: 32px;
+    margin-bottom: 20px;
+    transition: 2s all;
+}
+
+#saveButton:hover{
+    font-size: 48px;
+}
+
+#factThing{
+    transition: 2s all;
+    font-size: 32px;
+}
+
+#factThing:hover{
+    font-size: 48px;
+}
+
+#logOut{
+    transition: 2s all;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#logOut:hover{
+    font-size: 36px;
+}
+
+
+
