@@ -34,6 +34,15 @@ button {
   border-radius: 10px;
 }
 
+form button{
+  font-size: 32px;
+  transition: 2s all;
+}
+
+form button:hover{
+  font-size: 48px;
+}
+
 #genButton {
   font-size: 32px;
   transition: 2s all;
@@ -50,7 +59,7 @@ footer {
 }
 
 input {
-  background-color: black;
+  background-color: rgb(1, 6, 29);
 }
 
 li {
@@ -98,5 +107,13 @@ ul li button:hover {
 }
 
 #logOut:hover {
+  font-size: 36px;
+}
+
+h2 a{
+  transition: 2s all;
+}
+
+h2 a:hover{
   font-size: 36px;
 }

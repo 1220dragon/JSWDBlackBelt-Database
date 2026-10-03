@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Fact Generator</title>
+        <link rel="icon" type="image/x-icon" href="https://miro.medium.com/1*kwN_Y8GNf2ZB6sNQxngVyw@2x.jpeg">
         <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
@@ -18,7 +19,7 @@
 
         <div data-logged-out>
       <form data-login>
-        <h2>Log in</h2>
+
         <input name="username" placeholder="Username" required>
         <input name="password" type="password" placeholder="Password" required>
         <button>Log in</button>
@@ -44,6 +45,8 @@
     </div>
 
     <div data-logged-in>
+
+      <button id="logOut" data-logout>Log out</button>
  
 
       <form data-insert>
@@ -54,13 +57,13 @@
       <p><b id="factThing" data-username></b>'s saved facts</p>
 
       <ul data-list>
+        
         <li>
           <span data-field="text"></span>
           <button data-delete="text">Delete</button>
         </li>
         <li data-empty>Nothing saved yet.</li>
       </ul>
-      <button id="logOut" data-logout>Log out</button>
     </div>
 
     

@@ -1,6 +1,10 @@
 document.getElementById("quote").style.opacity = "1"
 import{blockList} from '/blockList.js'
 
+let yay = new Audio('yay.mp3')
+let wow = new Audio('wow.mp3')
+let aww = new Audio('aww.mp3')
+
  
 update()
 
@@ -37,6 +41,17 @@ function generate(){
   document.getElementById("quote").style.opacity = "0"
   setTimeout(showQuote, 2000)
   setTimeout(update, 1900)
+  setTimeout(function(){
+  if(Math.floor(Math.random()*10) === 1){
+      yay.play()
+    }if(Math.floor(Math.random()*10) === 1){
+      wow.play()
+    }if(Math.floor(Math.random*10) === 1){
+      aww.play()
+    }
+  }, 1900)
+  
+  
   
 }
 
@@ -52,6 +67,6 @@ function load(){
   document.getElementById("quote").style.opacity = "0"
   setTimeout(showQuote, 2000)
   setTimeout(function(){
-    document.getElementById("quote").innerHTML = localStorage.getItem("item")
+    document.getElementById("quote").innerHTML = localStorage.getItem("item");
   }, 1900)
 }
