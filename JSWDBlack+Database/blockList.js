@@ -1,102 +1,30 @@
 /*This is the blocklist to regenerate innapropriate facts. Please do NOT scroll. */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let blockList = ["penis", "sex", "testicles", "testicle", "pornography", "virgin", "condom", "mate", "dildo", "inseminate", "bra", "unfaithful wives", "twit", "Rape", "Venus observa", "nipples", "orgasm", "chocolate", "semen"];
-
-export {blockList};
+100;
+
+let blockList = [
+  "penis",
+  "sex",
+  "testicles",
+  "testicle",
+  "pornography",
+  "virgin",
+  "condom",
+  "mate",
+  "dildo",
+  "inseminate",
+  "bra",
+  "unfaithful wives",
+  "twit",
+  "Rape",
+  "Venus observa",
+  "nipples",
+  "orgasm",
+  "chocolate",
+  "semen",
+  "sperm",
+  "masturbation",
+  "Sex",
+];
+
+export { blockList };
